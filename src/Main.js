@@ -6,7 +6,7 @@ const Fullheader = ({ title }) => (
 );
 
 Fullheader.propTypes = {
-    name: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
 };
 
 export default Fullheader;
